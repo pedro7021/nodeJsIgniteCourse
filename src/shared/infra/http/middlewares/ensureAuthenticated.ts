@@ -1,8 +1,8 @@
 import { NextFunction, Request, Response } from "express";
 import { verify } from "jsonwebtoken";
 
-import { UsersRepository } from "../../../modules/accounts/infra/typeorm/repositories/UsersRepository";
-import { AppError } from "../../errors/AppError";
+import { UsersRepository } from "../../../../modules/accounts/infra/typeorm/repositories/UsersRepository";
+import { AppError } from "../../../errors/AppError";
 
 interface IPayload {
     sub: string;
@@ -22,7 +22,7 @@ export async function ensureAuthenticated(
     const [, token] = authHeader.split(" ");
 
     try {
-        const decoded = await verify(token, "sdfasdfdsfasd");
+        const decoded = await verify(token, "token");
 
         const { sub: user_id } = decoded as IPayload;
 
