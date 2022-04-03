@@ -3,7 +3,6 @@ import swaggerUi from "swagger-ui-express";
 
 import "express-async-errors";
 import "../../container";
-
 import swaggerFile from "../../../swagger.json";
 import { AppError } from "../../errors/AppError";
 import createConnection from "../typeorm";
