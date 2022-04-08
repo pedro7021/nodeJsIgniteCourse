@@ -13,6 +13,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.10.2
   bcrypt: ^5.0.1
   csv-parse: ^5.0.4
+  dayjs: ^1.11.0
   eslint: ^8.8.0
   eslint-config-airbnb-base: ^15.0.0
   eslint-config-prettier: ^8.3.0
@@ -41,6 +42,7 @@ specifiers:
 dependencies:
   bcrypt: 5.0.1
   csv-parse: 5.0.4
+  dayjs: 1.11.0
   express: 4.17.3
   express-async-errors: 3.1.1_express@4.17.3
   jsonwebtoken: 8.5.1
@@ -1649,6 +1651,10 @@ packages:
       whatwg-mimetype: 2.3.0
       whatwg-url: 8.7.0
     dev: true
+
+  /dayjs/1.11.0:
+    resolution: {integrity: sha512-JLC809s6Y948/FuCZPm5IX8rRhQwOiyMb2TfVVQEixG7P8Lm/gt5S7yoQZmC8x1UehI9Pb7sksEt4xx14m+7Ug==}
+    dev: false
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
