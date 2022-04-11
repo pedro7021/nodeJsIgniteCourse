@@ -14,6 +14,7 @@ router.use("/specifications", specificationRoutes);
 router.use("/users", usersRoutes);
 router.use("/cars", carsRoutes);
 router.use("/rentals", rentalRoutes);
+router.use("/teste", () => console.log("teste"));
 router.use(authenticateRoutes);
 
 export { router };
