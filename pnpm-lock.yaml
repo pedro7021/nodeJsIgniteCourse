@@ -16,6 +16,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.10.2
   aws-sdk: ^2.1162.0
   bcrypt: ^5.0.1
+  class-transformer: ^0.4.0
   csv-parse: ^5.0.4
   dayjs: ^1.11.0
   dotenv: ^16.0.1
@@ -51,6 +52,7 @@ specifiers:
 dependencies:
   aws-sdk: 2.1162.0
   bcrypt: 5.0.1
+  class-transformer: 0.4.0
   csv-parse: 5.0.4
   dayjs: 1.11.0
   dotenv: 16.0.1
@@ -1572,6 +1574,10 @@ packages:
   /cjs-module-lexer/1.2.2:
     resolution: {integrity: sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==}
     dev: true
+
+  /class-transformer/0.4.0:
+    resolution: {integrity: sha512-ETWD/H2TbWbKEi7m9N4Km5+cw1hNcqJSxlSYhsLsNjQzWWiZIYA1zafxpK9PwVfaZ6AqR5rrjPVUBGESm5tQUA==}
+    dev: false
 
   /cli-highlight/2.1.11:
     resolution: {integrity: sha512-9KDcoEVwyUXrjcJNvHD0NFc/hiwe/WPVYIleQh2O1N2Zro5gWJZ/K+3DGn8w8P/F6FxOgzyC5bxDyHIgCSPhGg==}
