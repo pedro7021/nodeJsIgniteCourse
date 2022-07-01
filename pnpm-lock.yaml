@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/bcrypt': ^5.0.0
+  '@types/cors': ^2.8.12
   '@types/express': ^4.17.13
   '@types/jest': ^27.4.1
   '@types/jsonwebtoken': ^8.5.8
@@ -17,6 +18,7 @@ specifiers:
   aws-sdk: ^2.1162.0
   bcrypt: ^5.0.1
   class-transformer: ^0.4.0
+  cors: ^2.8.5
   csv-parse: ^5.0.4
   dayjs: ^1.11.0
   dotenv: ^16.0.1
@@ -53,6 +55,7 @@ dependencies:
   aws-sdk: 2.1162.0
   bcrypt: 5.0.1
   class-transformer: 0.4.0
+  cors: 2.8.5
   csv-parse: 5.0.4
   dayjs: 1.11.0
   dotenv: 16.0.1
@@ -74,6 +77,7 @@ dependencies:
 
 devDependencies:
   '@types/bcrypt': 5.0.0
+  '@types/cors': 2.8.12
   '@types/express': 4.17.13
   '@types/jest': 27.4.1
   '@types/jsonwebtoken': 8.5.8
@@ -827,6 +831,10 @@ packages:
 
   /@types/cookiejar/2.1.2:
     resolution: {integrity: sha512-t73xJJrvdTjXrn4jLS9VSGRbz0nUY3cl2DMGDU48lKl+HR9dbbjW2A9r3g40VA++mQpy6uuHg33gy7du2BKpog==}
+    dev: true
+
+  /@types/cors/2.8.12:
+    resolution: {integrity: sha512-vt+kDhq/M2ayberEtJcIN/hxXy1Pk+59g2FV/ZQceeaTyCtCucjL2Q7FXlFjtWn4n15KCr1NE2lNNFhp0lEThw==}
     dev: true
 
   /@types/express-serve-static-core/4.17.28:
@@ -1696,6 +1704,14 @@ packages:
 
   /core-util-is/1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
+    dev: false
+
+  /cors/2.8.5:
+    resolution: {integrity: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==}
+    engines: {node: '>= 0.10'}
+    dependencies:
+      object-assign: 4.1.1
+      vary: 1.1.2
     dev: false
 
   /create-require/1.1.1:
